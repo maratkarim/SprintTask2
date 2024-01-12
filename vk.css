@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+}
+.container{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+.navbar{
+    background-color: navy;
+    display: flex;
+    padding: 10px;
+}
+.navbar p{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 200px;
+    padding-top: 3px;
+}
+.navbar input{
+    padding-left: 80px;
+    color: grey;
+    /* margin-left: 10%; */
+    background-color: beige;
+    border-radius: 0 15px 15px 0px;
+    border: none;
+}
+.navbar img{
+    margin-left: 140px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 20px;
+    height: 20px;
+    background-color: beige;
+    border-radius: 15px 0 0 15px;;
+    border: none;
+}
+.mainPart{
+    margin-top: 15px;
+    width: 80%;
+    margin-left: 12%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    color: darkblue;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.menu a{
+    text-decoration: none;
+    color: darkblue;
+}
+.avatar{
+    background-color: white;
+    border-radius: 7px;
+    width: 260px ;
+    padding: 15px;
+}
+.avatar img{
+    width: 100%;
+}
+.avatar button{
+    margin-top: 15px;
+    width: 100%;
+    background-color: aliceblue;
+    color: darkblue;
+    font-size: 18px;
+    padding: 5px;
+    border: 1px solid aliceblue;
+}
+.friends{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 7px;
+    width: 260px;
+    padding: 15px;
+}
+.friendsText{
+    display: flex;
+    color: darkblue;
+}
+.friendsText p{
+    margin-left: 10px;
+    font-size: 18px;
+}
+.friendsPhoto{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row1{
+    display: flex;
+}
+.row1Element{
+    width: 80px;
+    padding: 6px;
+    padding-top: 25px;
+}
+.row1Element img{
+    width: 80%;
+    border-radius: 50%;
+}
+.row1Element p{
+    color: darkblue;
+    padding-left: 9px; 
+}
+.myInfo{
+    background-color: white;
+    border-radius: 7px;
+    width: 630px;
+    padding: 15px;
+}
+.myInfo1{
+    display: flex;
+    justify-content: space-between;
+}
+.myInfo1 p{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.myInfo1 span{
+    color: darkgray;
+    font-size: 16px;
+}
+.myInfo2{
+    display: flex;
+}
+.first p{
+    color: darkgray;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.second{
+    margin-left: 80px;
+}
+.second p{
+    color: rgb(83, 83, 142);
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.myInfo3{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.myInfo3 p{
+    color: darkblue;
+    font-size: 25px;
+    text-align: center;
+}
+.myPhoto{
+    background-color: white;
+    border-radius: 7px;
+    width: 630px;
+    padding: 15px;
+    margin-top: 20px;
+}
+.myPhoto1{
+    display: flex;
+    padding-top: 10px;
+    width: 100%;
+    justify-content: space-around;
+}
+.myPhoto1 img{
+    width: 22%;
+}
+.myNews{
+    background-color: white;
+    border-radius: 7px;
+    width: 630px;
+    padding: 15px;
+    margin-top: 20px;
+}
+.myNews1{
+    display: flex;
+}
+.text1{
+    margin-top: 12px;
+}
+.text1 p{
+    color: darkblue;
+    font-size: 16px;
+    font-weight: bold;
+}
+.text1 span{
+    color: darkgray;
+    font-size: 14px;
+}
+.photo1{
+    width: 80px;
+    padding: 6px;
+    padding-top: 2px;
+}
+.photo1 img{
+    width: 80%;
+    border-radius: 50%;
+}
+.newsNew{
+    margin-top: 10px;
+}
+/* second page */
+.menuFriends{
+    margin-top: 10px;
+    width: 800px;
+    margin-left: 100px;
+    margin-right: 30px;
+    background-color: white;
+    border-radius: 8px;
+}
+.menu1{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.menu1_1{
+    display: flex;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.allFriends{
+    display: flex;
+}
+.allFriends p{
+    font-size: 18px;
+}
+.allFriends span{
+    margin-left: 10px;
+    font-size: 18px;
+    color: darkgray;
+}
+.onlineFriends{
+    display: flex;
+    margin-left: 30px;
+}
+.onlineFriends p{
+    font-size: 18px;
+}
+.onlineFriends span{
+    margin-left: 10px;
+    color: darkgray;
+    font-size: 18px;
+}
+.menu1_2 button{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: darkblue;
+    color: white;
+    font-size: 15px;
+    border: 1px solid aliceblue;
+}
+.menu2{
+    padding: 10px;
+}
+.menu2 img{
+    width: 15px;
+    padding-left: 15px;
+}
+.menu2 input{
+    margin-left: 10px;
+    color: darkgray;
+    font-size: 18px;
+    border: none;
+}
+.menu3Friends{
+    display: flex;
+    padding: 10px;
+    padding-left: 20px;
+}
+.menuPhoto{
+    width: 80px;
+}
+.menuPhoto img{
+    width: 80%;
+    border-radius: 50%;
+}
+.menuText h4{
+    margin-bottom: 4px;
+    color: darkblue;
+}
+.menuText p{
+    margin-bottom: 4px;
+    color: darkgray;
+}
+.menuText span{
+    color: rgb(76, 50, 192);
+}
+.menuAddition{
+    background-color: white;
+    width: 250;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 10px;
+}
+.menuAddition ul{
+    list-style: none;
+}
+.menuAddition ul li{
+    color: darkgray;
+    margin: 15px;
+}
+/*  */
+.menu3Friends1{
+    display: flex;
+    padding: 10px;
+    padding-left: 10px;
+}
+.menuPhoto1{
+    width: 70px;
+}
+.menuPhoto1 img{
+    width: 70%;
+    border-radius: 50%;
+}
+.menuText1 h4{
+    font-size: 14px;
+    color: darkblue;
+}
+.menuText1 p{
+    font-size: 14px;
+    color: darkgray;
+}
+.menuText1 span{
+    font-size: 14px;
+    color: rgb(76, 50, 192);
+}
+.menuPossible{
+    padding-left: 10px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+.maybeFriends{
+    padding: 10px;
+    padding-top: 20px;
+}
+.maybeFriends p{
+    color: darkgray;
+}
